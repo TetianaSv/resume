@@ -20,32 +20,41 @@ body {
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 .sidebar {
-    background: #1e2939;
-    width: 370px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url(../Img/bgImagePrimary.jpg);
+      padding-left: 10px;
+      padding-right: 10px;
+    width: 360px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .my-photo {
-    width: 370px;
+    width: 360px;
 }
-.about-me-conteiner {
+.photo-style {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about-me-container {
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 110px;
     padding-bottom: 110px;
 }
-.contacts-conteiner {
+.contacts-container {
     margin-top: 60px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.contacts-title
-{
+.contacts-title {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    color: #ffffff;
     margin-bottom: 20px;
+    color: #ffffff;
     }
 .contacts-link {
     font-size: 14px;
@@ -67,9 +76,9 @@ body {
     margin-bottom: 20px;
     color: #ffffff;
 }
-.tech-skills-conteiner {
-    margin-left: 40px;
-    margin-right: 40px;
+.tech-skills-container {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 55px;
 }
 .tech-skills-item {
@@ -77,14 +86,14 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin-left: 15px;
-    color: #e4630e;
+    color: #009933;
 }
 .tech-skills-text {
     color: #e1e2e5;
 }
-.soft-skills-conteiner {
-    margin-left: 40px;
-    margin-right: 40px;
+.soft-skills-container {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 55px;
 }
 .soft-skills-title {
@@ -99,7 +108,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin-left: 15px;
-    color: #e4630e;
+    color: #009933;
 }
 .soft-skills-text {
     color: #e1e2e5;
@@ -110,6 +119,8 @@ body {
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 23px;
+
+    text-transform: uppercase;
 }
 .name {
     font-size: 45px;
@@ -122,7 +133,7 @@ body {
     line-height: 24px;
     margin-top: 24px;
 }
-.info-conteiner {
+.info-container {
     margin-bottom: 65px;
 }
 .about-me-title {
@@ -151,7 +162,7 @@ body {
     font-weight: 700;
     margin-left: 17px;
 }
-.projects-conteiner {
+.projects-container {
     margin-bottom: 55px;
 }
 .profession-title {
@@ -162,7 +173,7 @@ body {
     margin-bottom: 15px;
 }
 .profession-company {
-    color: #ff6b08
+    color: #006622
 }
 .professoin-time {
     color: #a8a8a8;
@@ -189,7 +200,7 @@ line-height: 24px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 10px;
-    color: #ff6b08;
+    color: #006622;
 }
 .education-profession {
     font-size: 14px;
@@ -206,3 +217,42 @@ line-height: 24px;
 .education-divider {
     color: #000000;
 }
+
+.social-links {
+            list-style: none;
+}
+.social-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #ffffff;
+  }
+
+  .social-icon:hover, .social-icon:focus {
+    background-color: #009933;
+    border-radius: 50%;
+    fill: #ffffff;
+    cursor: pointer;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .sl-items {
+display: inline-flex;
+align-items: center;
+
+  }
+  .primary-link {
+color: #ffffff;
+padding-left: 6px;
+font-size: 14px;
+  }

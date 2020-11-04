@@ -8,22 +8,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--main conteiner-->
+    <!--main container-->
     <div class="wrapper">
         <aside class="sidebar">
-            <img class="my-photo" src="./Img/f5e75f35-8ae7-4379-8b6b-1a34e1bdedb0.jpg" alt="My photo">
-            <!--contacts conteiner-->
-            <div class="contacts-conteiner"> 
-               <h3 class="contacts-title">Contacts</h3>
-                <div>
-                    <span class="contacts-link-type">C</span>: <a class="contacts-link" href="tel:380687752200">+38 068 775 22 00</a>
-                </div>
-                <div>
-                    <span class="contacts-link-type">E</span>: <a class="contacts-link" href="mailto:gold_edition@icloud.com">gold_edition@icloud.com</a>
-                </div>
-            </div>
-            <!--Tech Skills conteiner-->
-            <div class="tech-skills-conteiner">
+<div class="photo-style">
+    <img class="my-photo" src="./Img/newForResume.jpg" alt="My photo">
+</div>
+            <!--contacts container-->
+               <div class=".contacts-container soft-skills-container">
+                <ul class="social-links">
+                    <h3 class="contacts-title">Contacts</h3>
+                    <li class="sl-items">
+                        <div class="social-icon">
+                         <svg width="20px" height="20px">
+                             <use href="./Img/symbol-defs.svg#icon-phone"></use>
+                           </svg> 
+                     </div>
+                     <a class="primary-link" href="tel:380687752200">+38 068 775 22 00</a>
+                    </li>
+                    <li class="sl-items">
+                        <div class="social-icon">
+                            <svg width="20px" height="20px">
+                                <use href="./Img/symbol-defs.svg#icon-mail"></use>
+                              </svg> 
+                        </div>
+                        <a class="primary-link" href="mailto:gold_edition@icloud.com">gold_edition@icloud.com</a>
+                    </li>
+                    <li class="sl-items">
+                        <a href="https://github.com/TetianaSv" class="social-icon">
+                          <svg width="20px" height="20px">
+                            <use href="./Img/symbol-defs.svg#icon-github"></use>
+                          </svg>
+                          </a>
+                          <a class="primary-link" href="https://github.com/TetianaSv">https://github.com/TetianaSv</a>
+                      </li>
+                    <li class="sl-items">
+                      <a href="https://www.instagram.com/fidemti" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.instagram.com/fidemti">https://www.instagram.com/fidemti</a>
+                    </li>
+                    <li class="sl-items">
+                      <a href="https://www.facebook.com/TetianaSv" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-Facebook"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.facebook.com/TetianaSv">https://www.facebook.com/TetianaSv</a>
+                    </li>
+                    <li class="sl-items">
+                      <a href="https://www.linkedin.com/in/tetianasv" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.facebook.com/TetianaSv">https://www.linkedin.com/in/tetianasv</a>
+                    </li>
+              </ul>
+               </div>
+            <!--Tech Skills container-->
+            <div class="tech-skills-container">
                 <h3 class="tech-skills-title">Tech Skills</h3>
                 <ul>
                     <li class="tech-skills-item">
@@ -33,20 +79,44 @@
                         <span class="tech-skills-text">CSS3</span>
                     </li>
                     <li class="tech-skills-item">
+                        <span class="tech-skills-text">SASS</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">OOP</span>
+                    </li>
+                    <li class="tech-skills-item">
                         <span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item">
+                            <span class="tech-skills-text">JavaScript</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">ES6</span>
+                </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Babel</span>
+                    </li>
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">WebPack</span>
                     </li>
                     <li class="tech-skills-item">
-                        <span class="tech-skills-text">JavaScript</span>
+                        <span class="tech-skills-text">Parcel</span>
                     </li>
                     <li class="tech-skills-item">
-                        <span class="tech-skills-text">React.js</span>
+                        <span class="tech-skills-text">Node/NPM</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">BEM</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Photoshop</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Figma</span>
                     </li>
                 </ul>
          </div>
-            <!--Soft Skills conteiner-->
-            <div class="soft-skills-conteiner">
+            <!--Soft Skills container-->
+            <div class="soft-skills-container">
                 <h3 class="soft-skills-title">Soft Skills</h3>
                 <ul>
                     <li class="soft-skills-item">
@@ -64,16 +134,16 @@
                 </ul>
             </div>
         </aside>
-        <!--about me conteiner-->
-        <div class="about-me-conteiner">
+        <!--about me container-->
+        <div class="about-me-container">
             <!--about me main info-->
-            <div class="info-conteiner">
-                <h2 class="profession">Front-End Developer</h2>
+            <div class="info-container">
+                <h2 class="profession">Full stack Developer</h2>
                 <h1 class="name">Tatiana Svinar</h1>
                 <p class="discription" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
             </div>
-                <!--projects conteiner-->
-            <div class="projects-conteiner">
+                <!--projects container-->
+            <div class="projects-container">
                  <h3 class="about-me-title">Projects</h3>
                 <ol>
                     <li class="projects-item">
