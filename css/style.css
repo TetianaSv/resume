@@ -39,16 +39,19 @@ body {
     overflow: hidden;
 }
 .about-me-container {
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
 }
 .contacts-container {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 30px;
 }
+
 .contacts-title {
     font-size: 22px;
     font-weight: 700;
@@ -73,13 +76,13 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #ffffff;
 }
 .tech-skills-container {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 55px;
+    margin-bottom: 30px;
 }
 .tech-skills-item {
     font-size: 14px;
@@ -94,7 +97,7 @@ body {
 .soft-skills-container {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 55px;
+   
 }
 .soft-skills-title {
     font-size: 22px;
@@ -175,7 +178,7 @@ body {
 .profession-company {
     color: #006622
 }
-.professoin-time {
+.profession-time {
     color: #a8a8a8;
     font-size: 12px;
     font-weight: 400;
@@ -193,20 +196,23 @@ body {
 color: #595959;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 18px;
+}
+.education-container:not(:last-child) {
+   margin-bottom: 10px;
 }
 .education-title {
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 10px;
+    line-height: 18px;
+    margin-bottom: 5px;
     color: #006622;
 }
 .education-profession {
     font-size: 14px;
     font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 10px;
+    line-height: 18px;
+    margin-bottom: 5px;
 }
 .education-time {
     color: #a8a8a8;
@@ -255,4 +261,7 @@ align-items: center;
 color: #ffffff;
 padding-left: 6px;
 font-size: 14px;
+  }
+  .work-exp {
+    margin-bottom: 55px;
   }
