@@ -8,22 +8,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--main conteiner-->
+    <!--main container-->
     <div class="wrapper">
         <aside class="sidebar">
-            <img class="my-photo" src="./Img/f5e75f35-8ae7-4379-8b6b-1a34e1bdedb0.jpg" alt="My photo">
-            <!--contacts conteiner-->
-            <div class="contacts-conteiner"> 
-               <h3 class="contacts-title">Contacts</h3>
-                <div>
-                    <span class="contacts-link-type">C</span>: <a class="contacts-link" href="tel:380687752200">+38 068 775 22 00</a>
-                </div>
-                <div>
-                    <span class="contacts-link-type">E</span>: <a class="contacts-link" href="mailto:gold_edition@icloud.com">gold_edition@icloud.com</a>
-                </div>
-            </div>
-            <!--Tech Skills conteiner-->
-            <div class="tech-skills-conteiner">
+<div class="photo-style">
+    <img class="my-photo" src="./Img/newForResume.jpg" alt="My photo">
+</div>
+            <!--contacts container-->
+               <div class="contacts-container">
+                <ul class="social-links">
+                    <h3 class="contacts-title">Contacts</h3>
+                    <li class="sl-items">
+                        <div class="social-icon">
+                         <svg width="20px" height="20px">
+                             <use href="./Img/symbol-defs.svg#icon-phone"></use>
+                           </svg> 
+                     </div>
+                     <a class="primary-link" href="tel:380687752200">+38 068 775 22 00</a>
+                    </li>
+                    <li class="sl-items">
+                        <div class="social-icon">
+                            <svg width="20px" height="20px">
+                                <use href="./Img/symbol-defs.svg#icon-mail"></use>
+                              </svg> 
+                        </div>
+                        <a class="primary-link" href="mailto:gold_edition@icloud.com">gold_edition@icloud.com</a>
+                    </li>
+                    <li class="sl-items">
+                        <a href="https://github.com/TetianaSv" class="social-icon">
+                          <svg width="20px" height="20px">
+                            <use href="./Img/symbol-defs.svg#icon-github"></use>
+                          </svg>
+                          </a>
+                          <a class="primary-link" href="https://github.com/TetianaSv">https://github.com/TetianaSv</a>
+                      </li>
+                    <li class="sl-items">
+                      <a href="https://www.instagram.com/fidemti" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.instagram.com/fidemti">https://www.instagram.com/fidemti</a>
+                    </li>
+                    <li class="sl-items">
+                      <a href="https://www.facebook.com/TetianaSv" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-Facebook"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.facebook.com/TetianaSv">https://www.facebook.com/TetianaSv</a>
+                    </li>
+                    <li class="sl-items">
+                      <a href="https://www.linkedin.com/in/tetianasv" class="social-icon">
+                        <svg class="socialnet" width="20px" height="20px">
+                          <use href="./Img/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                      <a class="primary-link" href="https://www.facebook.com/TetianaSv">https://www.linkedin.com/in/tetianasv</a>
+                    </li>
+              </ul>
+               </div>
+            <!--Tech Skills container-->
+            <div class="tech-skills-container">
                 <h3 class="tech-skills-title">Tech Skills</h3>
                 <ul>
                     <li class="tech-skills-item">
@@ -33,20 +79,44 @@
                         <span class="tech-skills-text">CSS3</span>
                     </li>
                     <li class="tech-skills-item">
+                        <span class="tech-skills-text">SASS</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">OOP</span>
+                    </li>
+                    <li class="tech-skills-item">
                         <span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item">
+                            <span class="tech-skills-text">JavaScript</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">ES6</span>
+                </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Babel</span>
+                    </li>
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">WebPack</span>
                     </li>
                     <li class="tech-skills-item">
-                        <span class="tech-skills-text">JavaScript</span>
+                        <span class="tech-skills-text">Parcel</span>
                     </li>
                     <li class="tech-skills-item">
-                        <span class="tech-skills-text">React.js</span>
+                        <span class="tech-skills-text">Node/NPM</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">BEM</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Photoshop</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Figma</span>
                     </li>
                 </ul>
          </div>
-            <!--Soft Skills conteiner-->
-            <div class="soft-skills-conteiner">
+            <!--Soft Skills container-->
+            <div class="soft-skills-container">
                 <h3 class="soft-skills-title">Soft Skills</h3>
                 <ul>
                     <li class="soft-skills-item">
@@ -64,32 +134,37 @@
                 </ul>
             </div>
         </aside>
-        <!--about me conteiner-->
-        <div class="about-me-conteiner">
+        <!--about me container-->
+        <div class="about-me-container">
             <!--about me main info-->
-            <div class="info-conteiner">
-                <h2 class="profession">Front-End Developer</h2>
+            <div class="info-container">
+                <h2 class="profession">Front End Developer</h2>
                 <h1 class="name">Tatiana Svinar</h1>
-                <p class="discription" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p class="discription" >I’m a student in GoIT school. I like development, programming and everything related to IT! Like mathematics, logic, taxonomy and when the code looks pretty! </p>
             </div>
-                <!--projects conteiner-->
-            <div class="projects-conteiner">
+                <!--projects container-->
+            <div class="projects-container">
                  <h3 class="about-me-title">Projects</h3>
                 <ol>
                     <li class="projects-item">
-                        <a class="projects-link" href="https://lovecamp.allinsol.com/">https://lovecamp.allinsol.com/</a>
-                        <span class="dots">................</span>
-                        <span><b>[</b><span class="tech-name">HTML5, CSS3</span><b>]</b></span>
+                        <a class="projects-link" href=https://tetianasv.github.io/goit-markup-hw-08/index.html>Web Studio</a>
+                        <span class="dots">................................................</span>
+                        <span><b>[</b><span class="tech-name"> HTML5, CSS3 </span><b>]</b></span>
                     </li>
                     <li class="projects-item">
-                        <a class="projects-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-                        <span class="dots">.........................</span>
-                        <span><b>[</b><span class="tech-name">JavaScript</span><b>]</b></span>
+                        <a class="projects-link" href="https://tetianasv.github.io/barbershop-project/">Barbershop</a>
+                        <span class="dots">................................................</span>
+                        <span><b>[</b><span class="tech-name"> HTML5, CSS3 </span><b>]</b></span>
                     </li>
                     <li class="projects-item">
-                        <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
+                        <a class="projects-link" href="https://tetianasv.github.io/goit-js-hw-12-countries/">Search country</a>
+                        <span class="dots">.........................................</span>
+                        <span><b>[</b><span class="tech-name"> JavaScript </span><b>]</b></span>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-link" href="https://tetianasv.github.io/goit-js-hw-13-image-finder/">PIXABAY image search</a>
                         <span class="dots">.........................</span>
-                        <span><b>[</b><span class="tech-name">React.js, Node.js</span><b>]</b></span>
+                        <span><b>[</b><span class="tech-name"> JavaScript </span><b>]</b></span>
                     </li>
                 </ol>
             </div>
@@ -97,51 +172,38 @@
             <!--Work Experience-->
             <div>
                 <h3 class="about-me-title">Work Experience</h3>
+                
                 <!--Company 1-->
-                <div>
-                    <h4 class="profession-title">Front-End Developer <span class="profession-company">Freelance</span></h4>
+                <div class="work-exp">
+                    <h4 class="profession-title">Manager <a class="profession-company" href="https://imaginetravel.com.ua/">Imagine Travel company</a></h4>
                      <span class="professoin-time">
-                         September 2019 - up to now <span class="profession-divider">|</span> Ukraine
-                        </span>
-                        <ul class="profession-duties">
-                            <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                            <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li class="profession-duties-items">Risus commodo viverra maecenas. </li>
-                            <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                        </ul>
-                </div>
-                <!--Company 2-->
-                <div>
-                    <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta New</span></h4>
-                     <span class="professoin-time">
-                        March 2015 - October 2018 <span class="profession-divider">|</span> Ukraine
+                        March 2018 - up to now <span class="profession-divider">|</span> Ukraine
                     </span>
                         <ul class="profession-duties">
-                            <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-                            <li class="profession-duties-items">Quis ipsum suspendisse ultrices gravida.</li>
-                            <li class="profession-duties-items">Risus commodo viverra maecenas.</li>
+                            <li class="profession-duties-items">Conclusion of contracts, preparation of documentation;</li>
+                            <li class="profession-duties-items">Communication with clients, consultation, selection of a tour;;</li>
+                            <li class="profession-duties-items">conducting business correspondence with partners;</li>
+                            <li class="profession-duties-items">conducting business correspondence with foreign representatives of companies and hotels;</li>
                         </ul>
+                        
                 </div>
-                <!--Company 3-->
-                <div>
-                    <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta LLC</span></h4>
-                     <span class="professoin-time">
-                        June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine
-                    </span>
-                        <ul class="profession-duties" >
-                            <li class="profession-duties-items">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li class="profession-duties-items">Quis ipsum suspendisse ultrices gravida.</li>
-                            <li class="profession-duties-items">Risus commodo viverra maecenas.</li>
-                        </ul>
-                </div>
+
             <!--Education-->
             <div>
                 <h3 class="about-me-title">Education</h3>
-                    <div>
+                  
+                  <div class="education-container">
                         <h4 class="education-title">Oles Honcar Dnipro National University</h4>
                             <h5 class="education-profession">Geographer</h5>
                                 <span class="education-time">
                                     Septermber 2010 - June 2015 <span class="education-divider">|</span>Ukraine
+                                </span>
+                    </div>
+                    <div class="education-container">
+                        <h4 class="education-title">GoIT school</h4>
+                            <h5 class="education-profession">Fullstack developer</h5>
+                                <span class="education-time">
+                                    May 2020 - May 2021 <span class="education-divider">|</span>Ukraine
                                 </span>
                     </div>
             </div>
